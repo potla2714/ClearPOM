@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ClearPOM]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="ClearPOM(failed)">
+    <classes>
+      <class name="com.guru.test.BankHomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyTheLoginSection"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.guru.test.BankHomePageTest -->
+    </classes>
+  </test> <!-- ClearPOM(failed) -->
+</suite> <!-- Failed suite [ClearPOM] -->
