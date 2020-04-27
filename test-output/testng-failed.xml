@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.guru.test.BankHomePageTest">
+      <class name="com.radioButton.test.HandleDynamicRadioButton">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyHomePageTitleTest"/>
+          <include name="radioBtnTest"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.guru.test.BankHomePageTest -->
+      </class> <!-- com.radioButton.test.HandleDynamicRadioButton -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

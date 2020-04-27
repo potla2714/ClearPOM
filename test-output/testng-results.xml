@@ -1,67 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-27T17:53:55 IST" name="Default suite" finished-at="2020-04-27T17:54:26 IST" duration-ms="31693">
+  <suite started-at="2020-04-28T00:45:35 IST" name="ClearPOM" finished-at="2020-04-28T00:46:36 IST" duration-ms="61121">
     <groups>
     </groups>
-    <test started-at="2020-04-27T17:53:55 IST" name="Default test" finished-at="2020-04-27T17:54:26 IST" duration-ms="31693">
-      <class name="com.guru.test.BankHomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.guru.test.BankHomePageTest@7ee955a8]" started-at="2020-04-27T17:53:55 IST" name="setUp" finished-at="2020-04-27T17:54:25 IST" duration-ms="30510" status="PASS">
+    <test started-at="2020-04-28T00:45:35 IST" name="ClearPOM" finished-at="2020-04-28T00:46:36 IST" duration-ms="61121">
+      <class name="com.guru.test.ManagerHomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.guru.test.ManagerHomePageTest@7c469c48]" started-at="2020-04-28T00:45:35 IST" name="setUp" finished-at="2020-04-28T00:46:05 IST" duration-ms="30061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.guru.test.BankHomePageTest@7ee955a8]" started-at="2020-04-27T17:54:25 IST" name="verifyHomePageTitleTest" finished-at="2020-04-27T17:54:25 IST" duration-ms="22" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Home page title matched expected [Guru99 Bank Home Page1] but found [Guru99 Bank Home Page]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Home page title matched expected [Guru99 Bank Home Page1] but found [Guru99 Bank Home Page]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at com.guru.test.BankHomePageTest.verifyHomePageTitleTest(BankHomePageTest.java:41)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyManagerHomePageTitle()[pri:0, instance:com.guru.test.ManagerHomePageTest@7c469c48]" started-at="2020-04-28T00:46:05 IST" name="verifyManagerHomePageTitle" finished-at="2020-04-28T00:46:05 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru.test.BankHomePageTest@7ee955a8]" started-at="2020-04-27T17:54:26 IST" name="tearDown" finished-at="2020-04-27T17:54:26 IST" duration-ms="639" status="PASS">
+        </test-method> <!-- verifyManagerHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru.test.ManagerHomePageTest@7c469c48]" started-at="2020-04-28T00:46:05 IST" name="tearDown" finished-at="2020-04-28T00:46:06 IST" duration-ms="632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.guru.test.BankHomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.guru.test.ManagerHomePageTest@7c469c48]" started-at="2020-04-28T00:46:06 IST" name="setUp" finished-at="2020-04-28T00:46:35 IST" duration-ms="29674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMarqeeText()[pri:0, instance:com.guru.test.ManagerHomePageTest@7c469c48]" started-at="2020-04-28T00:46:35 IST" name="verifyMarqeeText" finished-at="2020-04-28T00:46:35 IST" depends-on-methods="com.guru.test.ManagerHomePageTest.verifyManagerHomePageTitle" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMarqeeText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru.test.ManagerHomePageTest@7c469c48]" started-at="2020-04-28T00:46:35 IST" name="tearDown" finished-at="2020-04-28T00:46:36 IST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru.test.ManagerHomePageTest -->
+    </test> <!-- ClearPOM -->
+  </suite> <!-- ClearPOM -->
 </testng-results>
