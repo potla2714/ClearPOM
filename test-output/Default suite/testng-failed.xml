@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.guru.test.ManagerHomePageTest">
+      <class name="com.guru.test.BankHomePageTest">
         <methods>
-          <include name="verifyMarqeeText"/>
           <include name="tearDown"/>
-          <include name="verifyManagerHomePageTitle"/>
+          <include name="verifyHomePageTitleTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.guru.test.ManagerHomePageTest -->
+      </class> <!-- com.guru.test.BankHomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

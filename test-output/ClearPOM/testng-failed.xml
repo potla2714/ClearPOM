@@ -5,7 +5,11 @@
     <classes>
       <class name="com.guru.test.BankHomePageTest">
         <methods>
+          <include name="VerifyGuruHeaderText"/>
+          <include name="verifyGuruHeaderTest"/>
+          <include name="verifyGuruLogoTest"/>
           <include name="tearDown"/>
+          <include name="verifyHomePageTitleTest"/>
           <include name="verifyTheLoginSection"/>
           <include name="setUp"/>
         </methods>
