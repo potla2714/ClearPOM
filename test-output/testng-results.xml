@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-28T00:45:35 IST" name="ClearPOM" finished-at="2020-04-28T00:46:36 IST" duration-ms="61121">
+  <suite started-at="2020-04-28T19:47:58 IST" name="Default suite" finished-at="2020-04-28T19:48:27 IST" duration-ms="28738">
     <groups>
     </groups>
-    <test started-at="2020-04-28T00:45:35 IST" name="ClearPOM" finished-at="2020-04-28T00:46:36 IST" duration-ms="61121">
-      <class name="com.guru.test.ManagerHomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.guru.test.ManagerHomePageTest@7c469c48]" started-at="2020-04-28T00:45:35 IST" name="setUp" finished-at="2020-04-28T00:46:05 IST" duration-ms="30061" status="PASS">
+    <test started-at="2020-04-28T19:47:58 IST" name="Default test" finished-at="2020-04-28T19:48:27 IST" duration-ms="28738">
+      <class name="com.ngwebdriver.test.AngularTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ngwebdriver.test.AngularTest@647fd8ce]" started-at="2020-04-28T19:47:58 IST" name="setUp" finished-at="2020-04-28T19:48:25 IST" duration-ms="27154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyManagerHomePageTitle()[pri:0, instance:com.guru.test.ManagerHomePageTest@7c469c48]" started-at="2020-04-28T00:46:05 IST" name="verifyManagerHomePageTitle" finished-at="2020-04-28T00:46:05 IST" duration-ms="27" status="PASS">
+        <test-method signature="angularTest()[pri:0, instance:com.ngwebdriver.test.AngularTest@647fd8ce]" started-at="2020-04-28T19:48:25 IST" name="angularTest" finished-at="2020-04-28T19:48:26 IST" duration-ms="845" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyManagerHomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru.test.ManagerHomePageTest@7c469c48]" started-at="2020-04-28T00:46:05 IST" name="tearDown" finished-at="2020-04-28T00:46:06 IST" duration-ms="632" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.guru.test.ManagerHomePageTest@7c469c48]" started-at="2020-04-28T00:46:06 IST" name="setUp" finished-at="2020-04-28T00:46:35 IST" duration-ms="29674" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyMarqeeText()[pri:0, instance:com.guru.test.ManagerHomePageTest@7c469c48]" started-at="2020-04-28T00:46:35 IST" name="verifyMarqeeText" finished-at="2020-04-28T00:46:35 IST" depends-on-methods="com.guru.test.ManagerHomePageTest.verifyManagerHomePageTitle" duration-ms="51" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMarqeeText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru.test.ManagerHomePageTest@7c469c48]" started-at="2020-04-28T00:46:35 IST" name="tearDown" finished-at="2020-04-28T00:46:36 IST" duration-ms="630" status="PASS">
+        </test-method> <!-- angularTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ngwebdriver.test.AngularTest@647fd8ce]" started-at="2020-04-28T19:48:26 IST" name="tearDown" finished-at="2020-04-28T19:48:27 IST" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.guru.test.ManagerHomePageTest -->
-    </test> <!-- ClearPOM -->
-  </suite> <!-- ClearPOM -->
+      </class> <!-- com.ngwebdriver.test.AngularTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
