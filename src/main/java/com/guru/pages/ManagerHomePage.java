@@ -11,6 +11,9 @@ public class ManagerHomePage extends TestBase{
 	@FindBy(xpath = "//marquee[@class = 'heading3']")
 	WebElement marqueeText;
 	
+	@FindBy(xpath = "//td[contains(text(),'Manger Id : mngr257534')]")
+	WebElement mangerId;
+	
 	public ManagerHomePage() {
 		PageFactory.initElements(driver, this);
 	}
@@ -21,6 +24,10 @@ public class ManagerHomePage extends TestBase{
 	
 	public String verifymarqeeText() {
 		return marqueeText.getText();
+	}
+	
+	public String verifyMangerIdText() {
+		return mangerId.getText();
 	}
 
 }

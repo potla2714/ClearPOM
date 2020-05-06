@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.radioButton.test.HandleDynamicRadioButton">
+      <class name="com.javascriptExecutor.JavascriptExecutor">
         <methods>
-          <include name="radioBtnTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="javaTest"/>
         </methods>
-      </class> <!-- com.radioButton.test.HandleDynamicRadioButton -->
+      </class> <!-- com.javascriptExecutor.JavascriptExecutor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

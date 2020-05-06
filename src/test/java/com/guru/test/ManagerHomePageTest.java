@@ -43,6 +43,12 @@ public class ManagerHomePageTest extends TestBase {
 		Assert.assertEquals(marqeeText, "Welcome To Manager's Page of Guru99 Bank");
 	}
 	
+	@Test
+	public void verfiyMangerId() {
+		String mangerId = managerHomePage.verifyMangerIdText();
+		Assert.assertEquals(mangerId, "Manger Id : mngr257534");
+	}
+	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();
