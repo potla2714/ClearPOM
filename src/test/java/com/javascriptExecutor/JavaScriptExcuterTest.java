@@ -46,6 +46,7 @@ public class JavaScriptExcuterTest extends TestBase{
 		//======================================================================
 		driver.findElement(By.name("uid")).sendKeys("mngr257534");	
 		//js1.executeScript("document.getElementById('some id').value='someValue';");
+		//js1.executeScript("document.getElementByxpath('//div[@id = 'name']').value = 'Anil';");
 		driver.findElement(By.name("password")).sendKeys("Ytytyne");
 		WebElement btn =driver.findElement(By.name("btnLogin"));
 		//======================================================================
